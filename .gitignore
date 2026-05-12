@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# Datasets and local testing images
+dataset/
+test.jpg
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# Note: We ARE keeping the saved_model/ folder because it is required for deployment and is only ~11MB.
+# However, if you add larger datasets or models in the future, uncomment the next line to ignore them.
+# saved_model/
+
+# Streamlit
+.streamlit/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

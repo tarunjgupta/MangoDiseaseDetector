@@ -18,7 +18,7 @@ from patch_utils import patch_based_predict
 
 # --- Defaults ---
 MODEL_DIR = "saved_model"
-MODEL_PATH = os.path.join(MODEL_DIR, "mango_model.keras")
+MODEL_PATH = os.path.join(MODEL_DIR, "mango_model.h5")
 CLASS_NAMES_PATH = os.path.join(MODEL_DIR, "class_names.txt")
 
 

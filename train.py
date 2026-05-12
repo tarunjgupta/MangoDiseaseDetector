@@ -36,7 +36,7 @@ def train(dataset_dir, epochs=10, save_dir="saved_model"):
     )
 
     os.makedirs(save_dir, exist_ok=True)
-    model_path = os.path.join(save_dir, "mango_model.keras")
+    model_path = os.path.join(save_dir, "mango_model.h5")
 
     checkpoint = ModelCheckpoint(
         model_path,
